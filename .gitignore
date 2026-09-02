@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Environments
+.env
+.venv/
+env/
+
+# Tests and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# LaTeX build artifacts
+/.build/
+*.aux
+*.log
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.bcf
+*.run.xml
+
+# Source notebooks retained as local provenance
+/notebooks/
+.ipynb_checkpoints/
+*.ipynb
+
+# Generated results
+/results/
+/figures/
+/logs/
+
+# Manuscript sources and rendered documents
+/.latexmkrc
+*.tex
+*.bib
+*.cls
+*.sty
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+/images/
+/icons-reproducible/
+/review_feedback/
+/to-ed/
+/edit_doc.md
+
+# Archives and scratch work
+*.zip
+*.zst
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+/tmp/
+*.tmp
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.~lock.*#
+
+# Internal documents and assistant material
+/docs/
+/inhouse/
+/agents.md
+/AGENTS.md
+/CLAUDE.md
+/GEMINI.md
+/.agents/
+/.claude/
+/.codex/
+/.cursor/
+
+# Frozen evidence remains visible
+!/frozen/
+!/frozen/**
