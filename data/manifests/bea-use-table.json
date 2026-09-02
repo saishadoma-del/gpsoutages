@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "copied_utc_date": "2026-08-29",
+  "destination": "data/source/use_tables.csv",
+  "sha256": "dadbab9eb428c60a5c401ae5ea03971492265c3a743c4c9ed289f507c06df990",
+  "source": {
+    "repository": "git@github.com:denniesbor/C-SWIM.git",
+    "worktree_head": "0179df861b6446b262326e344cd93d5b82c819c1",
+    "path": "data/econ_data/supply_use_tables/use_tables.csv",
+    "tracked_at_head": false
+  },
+  "declared_interpretation": {
+    "source_unit": "million_usd",
+    "table_vintage": 2023,
+    "price_year": 2023
+  },
+  "notes": [
+    "The source file contains the industry, value added, final demand, and total output rows needed for the 13 sector aggregation.",
+    "The 2023 interpretation is the documented reproduction configuration and is carried into the processed table headers and manuscript.",
+    "The source is an ignored C-SWIM working-tree data asset rather than a file tracked at the recorded worktree head. The SHA-256 checksum identifies the adopted snapshot."
+  ]
+}
